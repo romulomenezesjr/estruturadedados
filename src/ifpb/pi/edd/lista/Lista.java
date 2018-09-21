@@ -15,5 +15,7 @@ public interface Lista {
 	public boolean verificar(Object e);
 	
 	public int tamanho();
+
+	
 }
 

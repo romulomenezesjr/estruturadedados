@@ -5,7 +5,6 @@ import ifpb.pi.edd.listaestatica.ListaEstatica;
 
 public class TesteAdicionar {
 	public static void main(String[] args) {
-
 	
 		Lista lista = new ListaEstatica();
 		lista.inicializa();
@@ -14,8 +13,5 @@ public class TesteAdicionar {
 		lista.adicionar("Thiago");
 		System.out.println(lista);
 		
-		
-		
-	
 	}
 }
