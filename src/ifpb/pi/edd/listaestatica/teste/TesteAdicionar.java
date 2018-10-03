@@ -8,9 +8,9 @@ public class TesteAdicionar {
 	
 		Lista lista = new ListaEstatica();
 		lista.inicializa();
-		lista.adicionar("Rômulo");
-		lista.adicionar("José");
-		lista.adicionar("Thiago");
+		lista.adicionar(0, "Rômulo");
+		lista.adicionar(0, "José");
+		lista.adicionar(0, "Thiago");
 		System.out.println(lista);
 		
 	}

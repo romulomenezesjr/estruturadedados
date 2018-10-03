@@ -58,7 +58,6 @@ public class ListaEncadeada implements Lista {
 			atual = atual.getProxima();
 		}
 		return atual;
-
 	}
 
 	@Override
@@ -73,20 +72,20 @@ public class ListaEncadeada implements Lista {
 		}
 		if (posicao == this.totalDeElementos - 1) {
 			removeDoFim();
-		} else if (posicao==0) {
+		} else if (posicao == 0) {
 			removeDoComeco();
 		} else {
-			Celula anterior = pegarCelula(posicao-1);
+			Celula anterior = pegarCelula(posicao - 1);
 			Celula atual = pegarCelula(posicao);
 			Celula proxima = atual.getProxima();
 			anterior.setProxima(proxima);
 			totalDeElementos--;
 		}
-		
+
 	}
 
 	private void removeDoFim() {
-		if (!posicaoValida(this.totalDeElementos-1)) {
+		if (!posicaoValida(this.totalDeElementos - 1)) {
 			throw new IllegalArgumentException("Posição inválida");
 		}
 		if (this.tamanho() == 1) {

@@ -66,7 +66,7 @@ public class ListaEstatica implements Lista {
 	}
 
 	private boolean posicaoValida(int posicao) {
-		return posicao >= 0 && posicao < this.totalElementos;
+		return posicao >= 0 && posicao <= this.totalElementos;
 	}
 
 	@Override

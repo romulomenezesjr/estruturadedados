@@ -11,7 +11,7 @@ public class TesteRemover {
 		lista.adicionar("Rômulo");
 		lista.adicionar("Rômulo1");
 		lista.adicionar("Rômulo2");
-		lista.remover(0);
+		lista.remover(2);
 		System.out.println(lista.toString());
 //		lista.adicionar("Rômulo3");
 //		lista.adicionar("Rômulo4");
